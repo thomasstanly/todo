@@ -1,0 +1,63 @@
+.container{
+    background-color: rgb(41, 41, 41);
+    border-radius: 1em;
+    padding: .5rem 2rem;
+}
+.todo-form{
+display: flex;
+align-items: center;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+input:focus {
+    box-shadow: none !important;
+}
+
+.submit-button{
+    margin: 1rem;
+    margin-right: 0;
+}
+ul{
+    padding: 0;
+}
+
+li{
+    margin-bottom:1rem;
+    background-color: black !important;
+    color: rgb(204, 194, 194) !important;
+    text-align: left;
+    border: none !important;
+}
+li > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.done,.crud{
+    cursor: pointer;
+}
+.done,.crud:active{
+   outline: none !important;
+}
+.todo{
+    flex-grow: 1;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#done{
+    color: rgb(25, 190, 240);
+}
+#edit{
+    color: rgb(43, 233, 43);
+}
+#delete{
+    color: rgb(238, 58, 58);
+}
+#strike-todo{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
